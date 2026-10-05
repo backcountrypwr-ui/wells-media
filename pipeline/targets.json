@@ -1,0 +1,8 @@
+{
+ "ig_reel": {"label": "Instagram + Facebook reel", "aspect": "9:16", "min_s": 10, "max_s": 40, "hook_first": true},
+ "ig_quick": {"label": "Quick reel (15 s or less)", "aspect": "9:16", "min_s": 6, "max_s": 15, "hook_first": true,
+              "only_if_best_length": "15 s or less"},
+ "yt_short": {"label": "YouTube Short", "aspect": "9:16", "min_s": 10, "max_s": 59, "hook_first": true},
+ "yt_long": {"label": "YouTube video", "aspect": "16:9", "min_s": 360, "max_s": 1200, "hook_first": true,
+             "cold_open": true, "needs_material_s": 360}
+}

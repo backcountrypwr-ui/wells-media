@@ -1,0 +1,68 @@
+{
+ "name": "Shop Floor",
+ "font": "Anton",
+ "colors": {
+  "text": "#FFFFFF",
+  "active": "#FFC400",
+  "outline": "#000000",
+  "box_text": "#141414"
+ },
+ "captions": {
+  "max_words": 3,
+  "size": 0.125,
+  "outline": 8,
+  "margin_v": 0.3,
+  "active_scale": 108
+ },
+ "hook": {
+  "seconds": 2.2,
+  "size": 0.12,
+  "margin_v": 0.16
+ },
+ "callouts": {
+  "seconds": 1.6,
+  "size": 0.08,
+  "margin_v": 0.25,
+  "parts": [
+   "radiator",
+   "vent hose",
+   "skid plate",
+   "air box",
+   "airbox",
+   "reservoir",
+   "clutch",
+   "stator",
+   "belt",
+   "spark plug",
+   "carburetor",
+   "carb",
+   "fuel pump",
+   "water pump",
+   "thermostat",
+   "oil filter",
+   "air filter",
+   "head gasket",
+   "cv axle",
+   "starter",
+   "battery",
+   "driveshaft",
+   "bearing",
+   "intake"
+  ]
+ },
+ "zoom": {
+  "punch_in": 1.08
+ },
+ "grade": "eq=contrast=1.06:saturation=1.10:gamma=0.98,colorbalance=rs=0.03:bs=-0.03",
+ "end_card": {
+  "seconds": 1.6,
+  "text": "MOBILE POWERSPORTS REPAIR\\NBOOK A FIX · LINK IN BIO"
+ },
+ "audio": {
+  "lufs": -14,
+  "true_peak": -2,
+  "music_under_db": 20,
+  "duck_ratio": 4,
+  "music": "pipeline/music/garage-rock-01.m4a"
+ }
+}

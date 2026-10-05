@@ -1,0 +1,2 @@
+numpy
+faster-whisper  # optional: local transcripts, needs huggingface.co
