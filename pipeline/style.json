@@ -57,5 +57,12 @@
  "end_card": {
   "seconds": 1.6,
   "text": "MOBILE POWERSPORTS REPAIR\\NBOOK A FIX · LINK IN BIO"
+ },
+ "audio": {
+  "lufs": -14,
+  "true_peak": -2,
+  "music_under_db": 20,
+  "duck_ratio": 4,
+  "music": "pipeline/music/garage-rock-01.m4a"
  }
 }

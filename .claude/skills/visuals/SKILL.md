@@ -15,6 +15,8 @@ from `pipeline/style.json` ("Shop Floor" for now). You don't change which pieces
 3. **Privacy**: look at frames from every segment (`ffmpeg -ss <t> -i <src> -frames:v 1 f.png`).
    Anything showing a customer's name, paperwork, a tag, a plate or a VIN gets a `blur` box on
    that segment (see the cutter skill). If you can't blur it cleanly, drop the shot and tell Wells.
+   **End card**: the default in `style.json` has the "book a fix" call to action. For test reels,
+   or when Wells says so, set `visuals.<target>.end_card` to other text, or to `""` for none.
 4. Run `python3 -m pipeline.visuals --job <job> --target <target>`.
 5. Check frames at the hook, a callout, a zoomed piece and the end card. Captions must stay inside
    the frame and clear of the Instagram buttons (bottom 20% and right edge).

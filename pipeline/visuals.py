@@ -7,7 +7,7 @@ Adds, on top of the cutter's cut list:
 - a hook title for the first seconds (job.visuals.<target>.hook_text or --hook)
 - part callouts the first time a part is named ("VENT HOSE")
 - punch-in zooms on alternating talking pieces, to hide jump cuts
-- a light colour grade, and the end card
+- a light colour grade, and the end card (job.visuals.<target>.end_card overrides it; "" for none)
 Privacy blur boxes on segments (from the cutter) are kept.
 """
 import argparse
@@ -157,7 +157,10 @@ def style_cut(jb, name, hook_text=None, st=None):
         if hook_text:
             events.append((0.0, st["hook"]["seconds"], "Hook", _esc(hook_text.upper())))
         ec = st["end_card"]
-        events.append((max(0, total - ec["seconds"]), total, "End", ec["text"]))
+        # A job can swap the end card text for one target, or set it to "" for none.
+        end_text = vis.get("end_card", ec["text"])
+        if end_text:
+            events.append((max(0, total - ec["seconds"]), total, "End", end_text))
         ass = os.path.join(tmp, "style.ass")
         write_ass(ass, W, H, st, events)
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", joined, "-vf", f"ass={ass}:fontsdir={FONTS}",
@@ -166,7 +169,8 @@ def style_cut(jb, name, hook_text=None, st=None):
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     vis.update({"file": os.path.relpath(out, J.ROOT), "style": st["name"], "hook_text": hook_text,
-                "callouts": [e[3] for e in events if e[2] == "Callout"], "at": J.now()})
+                "callouts": [e[3] for e in events if e[2] == "Callout"],
+                "end_card": end_text, "at": J.now()})
     return out
 
 

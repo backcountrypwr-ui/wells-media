@@ -129,5 +129,24 @@ class VisualsTest(unittest.TestCase):
         self.assertEqual([c[3] for c in calls], ["VENT HOSE"])
 
 
+class AudioTest(unittest.TestCase):
+    def test_mix_keeps_video_and_hits_loudness(self):
+        from pipeline import audio, visuals
+        d = tempfile.mkdtemp()
+        try:
+            vid, mus = os.path.join(d, "v.mp4"), os.path.join(d, "m.wav")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "testsrc=size=320x240:rate=30:d=6",
+                            "-f", "lavfi", "-i", "sine=f=300:d=6", "-c:v", "libx264", "-preset", "ultrafast",
+                            "-c:a", "aac", "-shortest", vid], check=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", "sine=f=660:d=2", mus], check=True)
+            out = audio.mix(vid, os.path.join(d, "o.mp4"), visuals.load_style()["audio"], mus)
+            p = media.probe(out)
+            self.assertAlmostEqual(p["duration"], 6.0, delta=0.2)
+            lufs, _ = audio.measure(out)
+            self.assertAlmostEqual(lufs, -14, delta=1.5)
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+
 if __name__ == "__main__":
     unittest.main()
