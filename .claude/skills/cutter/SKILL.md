@@ -45,7 +45,10 @@ Read `cut-report.md` and fix `job.json` → `cuts.<target>.segments` by hand whe
 - **Privacy**: if a segment's text names a customer, or you know it shows a plate or VIN, drop it
   or note it for the visuals stage. Never put a customer's name in a cut or caption.
 Segments only need `src`, `start`, `end`, `text`; you can add new ones from `candidates` or with
-your own times.
+your own times. The auto cut only finds talking and loud moments, so add silent b-roll (the part,
+the reservoir, the machine) yourself with `text: ""`. Check frames for paperwork, tags, plates and
+VINs; blur them with a segment `blur` list: `{"t0", "t1"}` in source seconds plus `x, y, w, h` as
+fractions of the frame.
 
 ## 5. Render rough cuts and hand off
 ```

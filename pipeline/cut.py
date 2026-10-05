@@ -268,7 +268,7 @@ def report(jb):
             continue
         lines.append(f"{cut['duration']} s, {len(cut['segments'])} pieces")
         for s in cut["segments"]:
-            lines.append(f"- `{s['id']}` {src[s['src']]} {s['start']:.2f}-{s['end']:.2f} ({s['why']}): {s['text']}")
+            lines.append(f"- `{s.get('id', 'edit')}` {src[s['src']]} {s['start']:.2f}-{s['end']:.2f} ({s['why']}): {s['text']}")
         lines += [f"- note: {n}" for n in cut["notes"]] + [""]
     lines.append("## Everything found")
     for c in jb["candidates"]:

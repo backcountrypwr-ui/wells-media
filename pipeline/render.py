@@ -20,14 +20,31 @@ FPS = 30
 FONT = "FreeSans"
 
 
-def _fit(src, W, H, fill):
+def _blur(src, seg):
+    """Privacy blur boxes, given in source seconds and as fractions of the frame."""
+    boxes = seg.get("blur", [])
+    if not boxes:
+        return "", "[0:v]"
+    sw, sh = src.get("width", 1080), src.get("height", 1920)
+    parts, cur = [], "[0:v]"
+    for i, b in enumerate(boxes):
+        w, h = int(b["w"] * sw) // 2 * 2, int(b["h"] * sh) // 2 * 2
+        x, y = int(b["x"] * sw), int(b["y"] * sh)
+        t0, t1 = b.get("t0", seg["start"]) - seg["start"], b.get("t1", seg["end"]) - seg["start"]
+        parts.append(f"{cur}split[m{i}][c{i}];[c{i}]crop={w}:{h}:{x}:{y},boxblur=40:4[b{i}];"
+                     f"[m{i}][b{i}]overlay={x}:{y}:enable='between(t,{t0:.2f},{t1:.2f})'[v{i}]")
+        cur = f"[v{i}]"
+    return ";".join(parts) + ";", cur
+
+
+def _fit(src, W, H, fill, inp="[0:v]"):
     sw, sh = src.get("width", W), src.get("height", H)
     same = abs(sw / sh - W / H) < 0.02
     cover = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1"
     if same or fill == "crop":
-        return f"[0:v]{cover},fps={FPS}[v]"
+        return f"{inp}{cover},fps={FPS}[v]"
     # Landscape into vertical (or the reverse): sharp video over a blurred copy.
-    return (f"[0:v]split[a][b];[a]{cover},boxblur=30:2[bg];"
+    return (f"{inp}split[a][b];[a]{cover},boxblur=30:2[bg];"
             f"[b]scale={W}:{H}:force_original_aspect_ratio=decrease,setsar=1[fg];"
             f"[bg][fg]overlay=(W-w)/2:(H-h)/2,fps={FPS}[v]")
 
@@ -39,7 +56,8 @@ def _segment(src, seg, out, W, H, fill):
     if not src.get("has_audio", True):
         cmd += ["-f", "lavfi", "-t", str(d), "-i", "anullsrc=r=48000:cl=stereo"]
     a_in = "[0:a]" if src.get("has_audio", True) else "[1:a]"
-    fc = (_fit(src, W, H, fill) + f";{a_in}aresample=48000,"
+    pre, inp = _blur(src, seg)
+    fc = (pre + _fit(src, W, H, fill, inp) + f";{a_in}aresample=48000,"
           f"afade=t=in:d={fade},afade=t=out:st={max(0, d - fade)}:d={fade}[a]")
     cmd += ["-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", str(d),
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p",
