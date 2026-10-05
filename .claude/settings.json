@@ -1,6 +1,6 @@
 {
-  "permissions": {.claude/settings.json
-    "allow": [.claude/settings.json
+  "permissions": {
+    "allow": [
       "mcp__vidIQ__vidiq_video_upload",
       "mcp__vidIQ__vidiq_instagram_publish_reel"
     ]
