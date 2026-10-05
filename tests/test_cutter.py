@@ -115,5 +115,19 @@ class MediaTest(unittest.TestCase):
         self.assertAlmostEqual(p["duration"], 4.0, delta=0.3)
 
 
+
+class VisualsTest(unittest.TestCase):
+    def test_caption_highlights_each_word_and_callout_once(self):
+        from pipeline import visuals
+        st = visuals.load_style()
+        words = W("the vent hose right here pushed it out the vent hose", 0.0)
+        caps = visuals.caption_lines(words, st)
+        self.assertEqual(len(caps), len(words))
+        self.assertIn(visuals.ass_color("#FFC400"), caps[1][3])
+        self.assertIn("VENT", caps[1][3])
+        calls = visuals.callout_lines(words, st)
+        self.assertEqual([c[3] for c in calls], ["VENT HOSE"])
+
+
 if __name__ == "__main__":
     unittest.main()

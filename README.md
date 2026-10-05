@@ -8,7 +8,7 @@ Raw footage goes through role agents that share one job file, `jobs/<job>/job.js
 |---|---|---|
 | 0 intake | logs clips, transcript, quiet and loud moments, trends from wells-dashboard | built |
 | 1 cutter | silence, filler, retakes, hook first, cut list per platform, rough render | built |
-| 2 visuals | styled captions, grade, zooms, callouts, privacy blur | next |
+| 2 visuals | styled captions, grade, zooms, callouts, privacy blur (`python3 -m pipeline.visuals`) | built |
 | 3 audio | voice cleanup, loudness, music | planned |
 | 4 packager | thumbnail, title, caption, hashtags, approval card | planned |
 

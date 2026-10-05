@@ -49,7 +49,7 @@ def _fit(src, W, H, fill, inp="[0:v]"):
             f"[bg][fg]overlay=(W-w)/2:(H-h)/2,fps={FPS}[v]")
 
 
-def _segment(src, seg, out, W, H, fill):
+def _segment(src, seg, out, W, H, fill, post=""):
     d = round(seg["end"] - seg["start"], 3)
     fade = min(0.03, d / 4)
     cmd = ["ffmpeg", "-v", "error", "-y", "-ss", str(seg["start"]), "-t", str(d), "-i", src["path"]]
@@ -57,7 +57,10 @@ def _segment(src, seg, out, W, H, fill):
         cmd += ["-f", "lavfi", "-t", str(d), "-i", "anullsrc=r=48000:cl=stereo"]
     a_in = "[0:a]" if src.get("has_audio", True) else "[1:a]"
     pre, inp = _blur(src, seg)
-    fc = (pre + _fit(src, W, H, fill, inp) + f";{a_in}aresample=48000,"
+    fit = _fit(src, W, H, fill, inp)
+    if post:
+        fit = fit[: -len("[v]")] + f",{post}[v]"
+    fc = (pre + fit + f";{a_in}aresample=48000,"
           f"afade=t=in:d={fade},afade=t=out:st={max(0, d - fade)}:d={fade}[a]")
     cmd += ["-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-t", str(d),
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p",
@@ -72,11 +75,14 @@ def _ass_time(t):
     return f"{int(h)}:{int(m):02d}:{s:05.2f}"
 
 
-def caption_events(jb, cut, max_words=3):
-    """Word timings remapped onto the cut's timeline, grouped 2-3 words at a time."""
+def timeline_words(jb, cut):
+    """Spoken words (no fillers) remapped onto the cut's timeline."""
     srcs = {s["id"]: s for s in jb["sources"]}
     words, off = [], 0.0
     for seg in cut["segments"]:
+        if not seg.get("text", "").strip():  # b-roll: no captions
+            off += seg["end"] - seg["start"]
+            continue
         inside = [w for w in srcs[seg["src"]].get("words", [])
                   if w["s"] >= seg["start"] - 0.05 and w["e"] <= seg["end"] + 0.1]
         # Estimated timings can pull in a dropped lead-in word; start where the text starts.
@@ -90,6 +96,12 @@ def caption_events(jb, cut, max_words=3):
                 words.append({"w": w["w"].strip(",").strip(), "s": off + max(0, w["s"] - seg["start"]),
                               "e": off + min(w["e"], seg["end"]) - seg["start"]})
         off += seg["end"] - seg["start"]
+    return words
+
+
+def caption_events(jb, cut, max_words=3):
+    """Word timings remapped onto the cut's timeline, grouped 2-3 words at a time."""
+    words = timeline_words(jb, cut)
     events, cur = [], []
     for i, w in enumerate(words):
         cur.append(w)
