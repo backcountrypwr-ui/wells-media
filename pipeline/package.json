@@ -1,0 +1,21 @@
+{
+ "accounts": {
+  "instagram": "Instagram @wellspowersports (reel)",
+  "facebook": "Facebook, Wells Powersports page (reel)",
+  "youtube_short": "YouTube, Wells Powersports channel (Short)",
+  "youtube": "YouTube, Wells Powersports channel (video)"
+ },
+ "platforms": {
+  "ig_reel": ["instagram", "facebook"],
+  "ig_quick": ["instagram", "facebook"],
+  "yt_short": ["youtube_short"],
+  "yt_long": ["youtube"]
+ },
+ "limits": {
+  "instagram": {"caption": 2200, "hashtags": 30},
+  "facebook": {"caption": 5000, "hashtags": 30},
+  "youtube_short": {"title": 100, "caption": 5000, "hashtags": 15, "require": "#Shorts"},
+  "youtube": {"title": 100, "caption": 5000, "hashtags": 15}
+ },
+ "cover": {"size": 0.15, "margin_v": 0.12}
+}

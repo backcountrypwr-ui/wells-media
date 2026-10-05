@@ -62,5 +62,24 @@ def read(dash=DEFAULT_DASH):
     }
 
 
+def captions(dash=DEFAULT_DASH, top=8):
+    """What Wells's best reels said: top captions by plays, and how many used hashtags."""
+    snaps = sorted(glob.glob(os.path.join(dash, "history", "*.json")))
+    if not snaps:
+        return {"error": "no snapshots in history/"}
+    with open(snaps[-1]) as f:
+        snap = json.load(f)
+    reels = [r for r in snap.get("instagram", {}).get("reels", []) if r.get("plays") is not None]
+    best = sorted(reels, key=lambda r: -r["plays"])[:top]
+    words = [len(r.get("cap", "").split()) for r in reels if r.get("cap") and r["cap"] != "(no caption)"]
+    return {
+        "snapshot": os.path.basename(snaps[-1]),
+        "top": [{"plays": r["plays"], "sec": r.get("sec"), "cap": r.get("cap", "")} for r in best],
+        "with_hashtags": sum("#" in r.get("cap", "") for r in reels),
+        "reels_counted": len(reels),
+        "median_caption_words": median(words) if words else None,
+    }
+
+
 if __name__ == "__main__":
     print(json.dumps(read(), indent=1))

@@ -148,5 +148,24 @@ class AudioTest(unittest.TestCase):
             shutil.rmtree(d, ignore_errors=True)
 
 
+class PackagerTest(unittest.TestCase):
+    def test_copy_checks(self):
+        from pipeline import package
+        lim = package.load_config()["limits"]
+        self.assertEqual(package.check_copy("instagram", {"caption": "Rolled it", "hashtags": ["#canam"]}, lim), [])
+        self.assertIn("missing #Shorts",
+                      package.check_copy("youtube_short", {"title": "Rolled it", "caption": "x"}, lim))
+        vin = package.check_copy("facebook", {"caption": "VIN 3JBVGAU44KK000123 done"}, lim)
+        self.assertTrue(any("VIN" in i for i in vin))
+        self.assertTrue(package.check_copy("instagram", {"caption": "x", "hashtags": ["can am"]}, lim))
+
+    def test_sharpness_prefers_detail(self):
+        import numpy as np
+        from pipeline import package
+        flat = np.full((32, 32), 128.0)
+        checks = np.indices((32, 32)).sum(axis=0) % 2 * 255.0
+        self.assertGreater(package.sharpness(checks), package.sharpness(flat))
+
+
 if __name__ == "__main__":
     unittest.main()
