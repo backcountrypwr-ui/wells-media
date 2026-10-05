@@ -1,0 +1,2633 @@
+{
+ "id": "2026-10-05-rolled-x3",
+ "created": "2026-10-05T22:55:40Z",
+ "note": "Rolled side-by-side, coolant puddle; Customer states format",
+ "stages": {
+  "intake": {
+   "status": "done",
+   "at": "2026-10-05T22:55:41Z",
+   "clips": 4
+  },
+  "cutter": {
+   "status": "done",
+   "at": "2026-10-05T22:56:33Z",
+   "auto": false,
+   "reviewed": true
+  },
+  "visuals": {
+   "status": "done",
+   "at": "2026-10-05T23:37:31Z",
+   "targets": [
+    "ig_reel"
+   ]
+  },
+  "audio": {
+   "status": "done",
+   "at": "2026-10-05T23:37:45Z",
+   "targets": [
+    "ig_reel"
+   ]
+  },
+  "packager": {
+   "status": "done",
+   "at": "2026-10-05T23:37:46Z",
+   "targets": [
+    "ig_reel"
+   ]
+  },
+  "approval": {
+   "status": "waiting",
+   "at": "2026-10-05T23:37:46Z"
+  },
+  "posted": {
+   "status": "pending"
+  }
+ },
+ "trends": {
+  "snapshot": "2026-10-04.json",
+  "reels_counted": 29,
+  "by_length": [
+   {
+    "length": "15 s or less",
+    "reels": 6,
+    "median_plays": 2825.0
+   },
+   {
+    "length": "16-40 s",
+    "reels": 13,
+    "median_plays": 1604
+   },
+   {
+    "length": "41-60 s",
+    "reels": 5,
+    "median_plays": 2653
+   },
+   {
+    "length": "over 60 s",
+    "reels": 4,
+    "median_plays": 1036.5
+   }
+  ],
+  "by_topic": [
+   {
+    "topic": "Land Rover",
+    "reels": 2,
+    "median_plays": 6357.5
+   },
+   {
+    "topic": "How-to / tips",
+    "reels": 1,
+    "median_plays": 2840
+   },
+   {
+    "topic": "Untagged",
+    "reels": 1,
+    "median_plays": 2502
+   },
+   {
+    "topic": "Funny / relatable",
+    "reels": 10,
+    "median_plays": 2218.0
+   },
+   {
+    "topic": "Repair & diagnosis",
+    "reels": 5,
+    "median_plays": 1847
+   },
+   {
+    "topic": "Shop",
+    "reels": 1,
+    "median_plays": 1819
+   },
+   {
+    "topic": "Sea-Doo",
+    "reels": 2,
+    "median_plays": 956.5
+   },
+   {
+    "topic": "Build progress",
+    "reels": 7,
+    "median_plays": 545
+   }
+  ],
+  "best_length": "15 s or less",
+  "plan_moves": [
+   {
+    "title": "Win the first second",
+    "evidence": "The 6 reels where under 22% of viewers swiped away at the start got a median of 3,082 plays. The 6 where over 40% swiped away got 482.",
+    "action": "Open on the problem or the result: the broken part, the noise, the complaint. Save the setup for later."
+   },
+   {
+    "title": "Short beats long",
+    "evidence": "Reels 15 seconds or shorter: median 2,825 plays. Reels over 60 seconds: median 1,037, with only 15\u201343% watched.",
+    "action": "Keep reels at 10\u201340 seconds. Long walkarounds go to YouTube."
+   },
+   {
+    "title": "Follow up the clutch reel",
+    "evidence": "Still growing: 113,281 plays (+867 since yesterday), 264 saves and 185 shares. Saves mean people want this info.",
+    "action": "Film part 2 (\"what it looked like inside\") on the bench, parts only, and point the caption to booking."
+   },
+   {
+    "title": "Your weekly median keeps climbing",
+    "evidence": "Median plays per reel by posting week: 677 (Sep 7), 1,362 (Sep 14), 1,991 (Sep 21), 2,747 (Sep 28).",
+    "action": "Keep posting at least 4 reels a week. Nothing has gone up since Oct 2, so get Monday's reel out."
+   },
+   {
+    "title": "Start YouTube with what's ready",
+    "evidence": "YouTube still has 0 videos. The coolant reel is already edited and sitting in Drive \"3 - Posted\".",
+    "action": "Post it as your first Short on Tuesday, then film the LS swap walkaround."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "path": "/home/claude/wells-media/raw/IMG_7471.MOV",
+   "name": "IMG_7471.MOV",
+   "duration": 46.473,
+   "has_audio": true,
+   "width": 1080,
+   "height": 1920,
+   "fps": 29.99,
+   "floor_db": -32.8,
+   "speech_db": -27.9,
+   "silences": [
+    [
+     0.0,
+     0.75
+    ],
+    [
+     1.3,
+     1.9
+    ],
+    [
+     2.35,
+     3.4
+    ],
+    [
+     6.05,
+     7.5
+    ],
+    [
+     10.45,
+     10.95
+    ],
+    [
+     12.4,
+     14.15
+    ],
+    [
+     14.75,
+     17.95
+    ],
+    [
+     18.25,
+     21.1
+    ],
+    [
+     21.75,
+     22.3
+    ],
+    [
+     23.45,
+     24.4
+    ],
+    [
+     24.45,
+     25.05
+    ],
+    [
+     25.5,
+     26.95
+    ],
+    [
+     27.1,
+     28.35
+    ],
+    [
+     29.15,
+     33.3
+    ],
+    [
+     33.7,
+     35.3
+    ],
+    [
+     35.35,
+     37.0
+    ],
+    [
+     38.55,
+     39.55
+    ],
+    [
+     40.05,
+     41.8
+    ],
+    [
+     41.85,
+     42.3
+    ],
+    [
+     42.45,
+     44.0
+    ],
+    [
+     44.55,
+     45.25
+    ],
+    [
+     45.3,
+     46.05
+    ]
+   ],
+   "loud": [
+    [
+     11.3,
+     11.65
+    ],
+    [
+     14.2,
+     14.55
+    ],
+    [
+     37.4,
+     37.8
+    ]
+   ],
+   "transcript_source": "srt",
+   "words": [
+    {
+     "w": "Customer",
+     "s": 0.74,
+     "e": 1.21,
+     "approx": true
+    },
+    {
+     "w": "states",
+     "s": 1.21,
+     "e": 1.58,
+     "approx": true
+    },
+    {
+     "w": "they",
+     "s": 1.58,
+     "e": 1.85,
+     "approx": true
+    },
+    {
+     "w": "rolled",
+     "s": 1.85,
+     "e": 2.21,
+     "approx": true
+    },
+    {
+     "w": "it.",
+     "s": 2.21,
+     "e": 2.42,
+     "approx": true
+    },
+    {
+     "w": "Um,",
+     "s": 3.37,
+     "e": 3.64,
+     "approx": true
+    },
+    {
+     "w": "they",
+     "s": 3.64,
+     "e": 3.98,
+     "approx": true
+    },
+    {
+     "w": "also",
+     "s": 3.98,
+     "e": 4.32,
+     "approx": true
+    },
+    {
+     "w": "stated",
+     "s": 4.32,
+     "e": 4.8,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 4.8,
+     "e": 5.14,
+     "approx": true
+    },
+    {
+     "w": "there",
+     "s": 5.14,
+     "e": 5.54,
+     "approx": true
+    },
+    {
+     "w": "was",
+     "s": 5.54,
+     "e": 5.82,
+     "approx": true
+    },
+    {
+     "w": "a",
+     "s": 5.82,
+     "e": 5.95,
+     "approx": true
+    },
+    {
+     "w": "puddle",
+     "s": 5.95,
+     "e": 6.43,
+     "approx": true
+    },
+    {
+     "w": "of",
+     "s": 6.43,
+     "e": 6.63,
+     "approx": true
+    },
+    {
+     "w": "coolant",
+     "s": 6.63,
+     "e": 7.17,
+     "approx": true
+    },
+    {
+     "w": "after",
+     "s": 7.17,
+     "e": 7.58,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 7.58,
+     "e": 7.85,
+     "approx": true
+    },
+    {
+     "w": "incident.",
+     "s": 7.85,
+     "e": 8.53,
+     "approx": true
+    },
+    {
+     "w": "So",
+     "s": 8.53,
+     "e": 8.63,
+     "approx": true
+    },
+    {
+     "w": "first",
+     "s": 8.63,
+     "e": 8.83,
+     "approx": true
+    },
+    {
+     "w": "thing",
+     "s": 8.83,
+     "e": 9.03,
+     "approx": true
+    },
+    {
+     "w": "I'm",
+     "s": 9.03,
+     "e": 9.17,
+     "approx": true
+    },
+    {
+     "w": "gonna",
+     "s": 9.17,
+     "e": 9.37,
+     "approx": true
+    },
+    {
+     "w": "check",
+     "s": 9.37,
+     "e": 9.57,
+     "approx": true
+    },
+    {
+     "w": "Mm-hmm",
+     "s": 14.14,
+     "e": 14.93,
+     "approx": true
+    },
+    {
+     "w": "I'm",
+     "s": 28.65,
+     "e": 28.87,
+     "approx": true
+    },
+    {
+     "w": "gonna",
+     "s": 28.87,
+     "e": 29.19,
+     "approx": true
+    },
+    {
+     "w": "check",
+     "s": 29.19,
+     "e": 29.52,
+     "approx": true
+    },
+    {
+     "w": "You're",
+     "s": 37.05,
+     "e": 37.8,
+     "approx": true
+    },
+    {
+     "w": "back",
+     "s": 37.8,
+     "e": 38.34,
+     "approx": true
+    }
+   ],
+   "text": "Customer states they rolled it. Um, they also stated that there was a puddle of coolant after the incident. So first thing I'm gonna check Mm-hmm I'm gonna check You're back",
+   "id": "c1"
+  },
+  {
+   "path": "/home/claude/wells-media/raw/IMG_7472.MOV",
+   "name": "IMG_7472.MOV",
+   "duration": 25.403,
+   "has_audio": true,
+   "width": 1080,
+   "height": 1920,
+   "fps": 29.99,
+   "floor_db": -32.0,
+   "speech_db": -24.1,
+   "silences": [
+    [
+     0.75,
+     1.45
+    ],
+    [
+     2.55,
+     3.4
+    ],
+    [
+     3.45,
+     4.35
+    ],
+    [
+     6.8,
+     7.2
+    ],
+    [
+     9.5,
+     10.55
+    ],
+    [
+     14.1,
+     14.7
+    ],
+    [
+     14.8,
+     15.4
+    ],
+    [
+     15.8,
+     16.75
+    ],
+    [
+     17.85,
+     19.3
+    ],
+    [
+     19.45,
+     21.65
+    ],
+    [
+     22.6,
+     24.7
+    ]
+   ],
+   "loud": [],
+   "transcript_source": "srt",
+   "words": [
+    {
+     "w": "I",
+     "s": 0.03,
+     "e": 0.18,
+     "approx": true
+    },
+    {
+     "w": "just",
+     "s": 0.18,
+     "e": 0.57,
+     "approx": true
+    },
+    {
+     "w": "checked",
+     "s": 0.57,
+     "e": 1.19,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 1.19,
+     "e": 1.5,
+     "approx": true
+    },
+    {
+     "w": "oil",
+     "s": 1.5,
+     "e": 1.8,
+     "approx": true
+    },
+    {
+     "w": "and",
+     "s": 1.8,
+     "e": 2.11,
+     "approx": true
+    },
+    {
+     "w": "she's",
+     "s": 2.11,
+     "e": 2.58,
+     "approx": true
+    },
+    {
+     "w": "got",
+     "s": 2.58,
+     "e": 2.89,
+     "approx": true
+    },
+    {
+     "w": "oil,",
+     "s": 2.89,
+     "e": 3.27,
+     "approx": true
+    },
+    {
+     "w": "but",
+     "s": 3.27,
+     "e": 3.58,
+     "approx": true
+    },
+    {
+     "w": "when",
+     "s": 3.58,
+     "e": 3.97,
+     "approx": true
+    },
+    {
+     "w": "things",
+     "s": 3.97,
+     "e": 4.51,
+     "approx": true
+    },
+    {
+     "w": "are",
+     "s": 4.51,
+     "e": 4.82,
+     "approx": true
+    },
+    {
+     "w": "sitting",
+     "s": 4.82,
+     "e": 5.43,
+     "approx": true
+    },
+    {
+     "w": "upside",
+     "s": 5.43,
+     "e": 5.97,
+     "approx": true
+    },
+    {
+     "w": "down,",
+     "s": 5.97,
+     "e": 6.44,
+     "approx": true
+    },
+    {
+     "w": "they",
+     "s": 7.14,
+     "e": 7.54,
+     "approx": true
+    },
+    {
+     "w": "tend",
+     "s": 7.54,
+     "e": 7.93,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 7.93,
+     "e": 8.17,
+     "approx": true
+    },
+    {
+     "w": "accumulate",
+     "s": 8.17,
+     "e": 9.04,
+     "approx": true
+    },
+    {
+     "w": "a",
+     "s": 9.04,
+     "e": 9.2,
+     "approx": true
+    },
+    {
+     "w": "little",
+     "s": 9.2,
+     "e": 9.75,
+     "approx": true
+    },
+    {
+     "w": "bit",
+     "s": 9.75,
+     "e": 10.07,
+     "approx": true
+    },
+    {
+     "w": "of",
+     "s": 10.07,
+     "e": 10.3,
+     "approx": true
+    },
+    {
+     "w": "lubrication",
+     "s": 10.3,
+     "e": 11.25,
+     "approx": true
+    },
+    {
+     "w": "in",
+     "s": 11.25,
+     "e": 11.49,
+     "approx": true
+    },
+    {
+     "w": "somewhere",
+     "s": 11.49,
+     "e": 12.28,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 12.28,
+     "e": 12.68,
+     "approx": true
+    },
+    {
+     "w": "doesn't",
+     "s": 12.68,
+     "e": 13.31,
+     "approx": true
+    },
+    {
+     "w": "need",
+     "s": 13.31,
+     "e": 13.86,
+     "approx": true
+    },
+    {
+     "w": "lubrication,",
+     "s": 13.86,
+     "e": 15.3,
+     "approx": true
+    },
+    {
+     "w": "namely",
+     "s": 15.3,
+     "e": 16.07,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 16.07,
+     "e": 16.51,
+     "approx": true
+    },
+    {
+     "w": "air",
+     "s": 16.51,
+     "e": 16.96,
+     "approx": true
+    },
+    {
+     "w": "box",
+     "s": 16.96,
+     "e": 17.4,
+     "approx": true
+    },
+    {
+     "w": "It's",
+     "s": 21.69,
+     "e": 21.91,
+     "approx": true
+    },
+    {
+     "w": "got",
+     "s": 21.91,
+     "e": 22.09,
+     "approx": true
+    },
+    {
+     "w": "some",
+     "s": 22.09,
+     "e": 22.31,
+     "approx": true
+    },
+    {
+     "w": "oil",
+     "s": 22.31,
+     "e": 22.48,
+     "approx": true
+    },
+    {
+     "w": "in",
+     "s": 22.48,
+     "e": 22.61,
+     "approx": true
+    },
+    {
+     "w": "her",
+     "s": 22.61,
+     "e": 22.79,
+     "approx": true
+    }
+   ],
+   "text": "I just checked the oil and she's got oil, but when things are sitting upside down, they tend to accumulate a little bit of lubrication in somewhere that doesn't need lubrication, namely the air box It's got some oil in her",
+   "id": "c2"
+  },
+  {
+   "path": "/home/claude/wells-media/raw/IMG_7473.MOV",
+   "name": "IMG_7473.MOV",
+   "duration": 20.237,
+   "has_audio": true,
+   "width": 1080,
+   "height": 1920,
+   "fps": 30.0,
+   "floor_db": -33.0,
+   "speech_db": -23.6,
+   "silences": [
+    [
+     3.05,
+     4.25
+    ],
+    [
+     7.1,
+     8.05
+    ],
+    [
+     10.6,
+     11.75
+    ],
+    [
+     12.6,
+     14.05
+    ],
+    [
+     15.45,
+     17.15
+    ],
+    [
+     19.0,
+     20.2
+    ]
+   ],
+   "loud": [],
+   "transcript_source": "srt",
+   "words": [
+    {
+     "w": "I'm",
+     "s": 0.06,
+     "e": 0.27,
+     "approx": true
+    },
+    {
+     "w": "thinking",
+     "s": 0.27,
+     "e": 0.75,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 0.75,
+     "e": 1.01,
+     "approx": true
+    },
+    {
+     "w": "something",
+     "s": 1.01,
+     "e": 1.53,
+     "approx": true
+    },
+    {
+     "w": "has",
+     "s": 1.53,
+     "e": 1.74,
+     "approx": true
+    },
+    {
+     "w": "happened",
+     "s": 1.74,
+     "e": 2.22,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 2.22,
+     "e": 2.37,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 2.37,
+     "e": 2.58,
+     "approx": true
+    },
+    {
+     "w": "radiator.",
+     "s": 2.58,
+     "e": 3.11,
+     "approx": true
+    },
+    {
+     "w": "Now,",
+     "s": 4.24,
+     "e": 4.77,
+     "approx": true
+    },
+    {
+     "w": "I",
+     "s": 4.77,
+     "e": 4.98,
+     "approx": true
+    },
+    {
+     "w": "am",
+     "s": 4.98,
+     "e": 5.3,
+     "approx": true
+    },
+    {
+     "w": "going",
+     "s": 5.3,
+     "e": 5.94,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 5.94,
+     "e": 6.25,
+     "approx": true
+    },
+    {
+     "w": "test",
+     "s": 6.25,
+     "e": 6.78,
+     "approx": true
+    },
+    {
+     "w": "my",
+     "s": 6.78,
+     "e": 7.1,
+     "approx": true
+    },
+    {
+     "w": "theory",
+     "s": 7.1,
+     "e": 7.84,
+     "approx": true
+    },
+    {
+     "w": "by",
+     "s": 7.84,
+     "e": 8.16,
+     "approx": true
+    },
+    {
+     "w": "filling",
+     "s": 8.16,
+     "e": 9.01,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 9.01,
+     "e": 9.43,
+     "approx": true
+    },
+    {
+     "w": "system",
+     "s": 9.43,
+     "e": 10.17,
+     "approx": true
+    },
+    {
+     "w": "with",
+     "s": 10.17,
+     "e": 10.7,
+     "approx": true
+    },
+    {
+     "w": "coolant",
+     "s": 10.7,
+     "e": 11.55,
+     "approx": true
+    },
+    {
+     "w": "and",
+     "s": 11.55,
+     "e": 11.97,
+     "approx": true
+    },
+    {
+     "w": "running",
+     "s": 11.99,
+     "e": 12.78,
+     "approx": true
+    },
+    {
+     "w": "it,",
+     "s": 12.78,
+     "e": 13.17,
+     "approx": true
+    },
+    {
+     "w": "because",
+     "s": 13.17,
+     "e": 13.96,
+     "approx": true
+    },
+    {
+     "w": "it's",
+     "s": 13.96,
+     "e": 14.45,
+     "approx": true
+    },
+    {
+     "w": "got",
+     "s": 14.45,
+     "e": 14.85,
+     "approx": true
+    },
+    {
+     "w": "oil.",
+     "s": 14.85,
+     "e": 15.34,
+     "approx": true
+    },
+    {
+     "w": "I",
+     "s": 17.03,
+     "e": 17.14,
+     "approx": true
+    },
+    {
+     "w": "just",
+     "s": 17.14,
+     "e": 17.42,
+     "approx": true
+    },
+    {
+     "w": "need",
+     "s": 17.42,
+     "e": 17.7,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 17.7,
+     "e": 17.87,
+     "approx": true
+    },
+    {
+     "w": "see",
+     "s": 17.87,
+     "e": 18.09,
+     "approx": true
+    },
+    {
+     "w": "where",
+     "s": 18.09,
+     "e": 18.43,
+     "approx": true
+    },
+    {
+     "w": "it's",
+     "s": 18.43,
+     "e": 18.71,
+     "approx": true
+    },
+    {
+     "w": "leaking",
+     "s": 18.71,
+     "e": 19.16,
+     "approx": true
+    }
+   ],
+   "text": "I'm thinking that something has happened to the radiator. Now, I am going to test my theory by filling the system with coolant and running it, because it's got oil. I just need to see where it's leaking",
+   "id": "c3"
+  },
+  {
+   "path": "/home/claude/wells-media/raw/IMG_7475.MOV",
+   "name": "IMG_7475.MOV",
+   "duration": 46.842,
+   "has_audio": true,
+   "width": 1080,
+   "height": 1920,
+   "fps": 29.97,
+   "floor_db": -32.6,
+   "speech_db": -23.1,
+   "silences": [
+    [
+     1.45,
+     1.95
+    ],
+    [
+     3.8,
+     4.4
+    ],
+    [
+     4.7,
+     5.25
+    ],
+    [
+     8.15,
+     8.85
+    ],
+    [
+     10.95,
+     11.35
+    ],
+    [
+     12.6,
+     13.0
+    ],
+    [
+     15.8,
+     16.3
+    ],
+    [
+     17.0,
+     17.6
+    ],
+    [
+     20.1,
+     20.7
+    ],
+    [
+     20.95,
+     21.5
+    ],
+    [
+     23.1,
+     23.65
+    ],
+    [
+     25.25,
+     26.0
+    ],
+    [
+     26.35,
+     26.85
+    ],
+    [
+     28.4,
+     29.0
+    ],
+    [
+     30.4,
+     31.0
+    ],
+    [
+     31.5,
+     32.0
+    ],
+    [
+     33.7,
+     34.25
+    ],
+    [
+     41.85,
+     42.8
+    ],
+    [
+     43.2,
+     43.75
+    ],
+    [
+     44.6,
+     45.15
+    ],
+    [
+     46.3,
+     46.8
+    ]
+   ],
+   "loud": [],
+   "transcript_source": "srt",
+   "words": [
+    {
+     "w": "Okay,",
+     "s": 0.01,
+     "e": 0.28,
+     "approx": true
+    },
+    {
+     "w": "so",
+     "s": 0.28,
+     "e": 0.42,
+     "approx": true
+    },
+    {
+     "w": "I",
+     "s": 0.42,
+     "e": 0.51,
+     "approx": true
+    },
+    {
+     "w": "filled",
+     "s": 0.51,
+     "e": 0.82,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 0.82,
+     "e": 0.96,
+     "approx": true
+    },
+    {
+     "w": "with",
+     "s": 0.96,
+     "e": 1.19,
+     "approx": true
+    },
+    {
+     "w": "coolant,",
+     "s": 1.19,
+     "e": 1.59,
+     "approx": true
+    },
+    {
+     "w": "brought",
+     "s": 1.59,
+     "e": 1.95,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 1.95,
+     "e": 2.09,
+     "approx": true
+    },
+    {
+     "w": "up",
+     "s": 2.09,
+     "e": 2.22,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 2.22,
+     "e": 2.36,
+     "approx": true
+    },
+    {
+     "w": "temperature,",
+     "s": 2.36,
+     "e": 2.95,
+     "approx": true
+    },
+    {
+     "w": "got",
+     "s": 2.95,
+     "e": 3.13,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 3.13,
+     "e": 3.3,
+     "approx": true
+    },
+    {
+     "w": "super",
+     "s": 3.3,
+     "e": 3.66,
+     "approx": true
+    },
+    {
+     "w": "hot,",
+     "s": 3.66,
+     "e": 3.95,
+     "approx": true
+    },
+    {
+     "w": "um,",
+     "s": 3.95,
+     "e": 4.18,
+     "approx": true
+    },
+    {
+     "w": "you",
+     "s": 4.18,
+     "e": 4.42,
+     "approx": true
+    },
+    {
+     "w": "know,",
+     "s": 4.42,
+     "e": 4.77,
+     "approx": true
+    },
+    {
+     "w": "checked",
+     "s": 4.77,
+     "e": 5.24,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 5.24,
+     "e": 5.48,
+     "approx": true
+    },
+    {
+     "w": "radiator,",
+     "s": 5.48,
+     "e": 6.07,
+     "approx": true
+    },
+    {
+     "w": "checked",
+     "s": 6.07,
+     "e": 6.54,
+     "approx": true
+    },
+    {
+     "w": "underneath,",
+     "s": 6.54,
+     "e": 7.24,
+     "approx": true
+    },
+    {
+     "w": "checked",
+     "s": 7.25,
+     "e": 7.81,
+     "approx": true
+    },
+    {
+     "w": "all",
+     "s": 7.81,
+     "e": 8.09,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 8.09,
+     "e": 8.37,
+     "approx": true
+    },
+    {
+     "w": "hoses,",
+     "s": 8.37,
+     "e": 8.87,
+     "approx": true
+    },
+    {
+     "w": "and",
+     "s": 8.87,
+     "e": 9.15,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 9.15,
+     "e": 9.36,
+     "approx": true
+    },
+    {
+     "w": "actually",
+     "s": 9.36,
+     "e": 9.99,
+     "approx": true
+    },
+    {
+     "w": "was",
+     "s": 9.99,
+     "e": 10.28,
+     "approx": true
+    },
+    {
+     "w": "not",
+     "s": 10.28,
+     "e": 10.56,
+     "approx": true
+    },
+    {
+     "w": "leaking",
+     "s": 10.56,
+     "e": 11.12,
+     "approx": true
+    },
+    {
+     "w": "coolant",
+     "s": 11.12,
+     "e": 11.68,
+     "approx": true
+    },
+    {
+     "w": "at",
+     "s": 11.68,
+     "e": 11.9,
+     "approx": true
+    },
+    {
+     "w": "all.",
+     "s": 11.9,
+     "e": 12.25,
+     "approx": true
+    },
+    {
+     "w": "Um,",
+     "s": 12.94,
+     "e": 13.19,
+     "approx": true
+    },
+    {
+     "w": "so",
+     "s": 13.19,
+     "e": 13.37,
+     "approx": true
+    },
+    {
+     "w": "what",
+     "s": 13.37,
+     "e": 13.67,
+     "approx": true
+    },
+    {
+     "w": "I",
+     "s": 13.67,
+     "e": 13.79,
+     "approx": true
+    },
+    {
+     "w": "think",
+     "s": 13.79,
+     "e": 14.16,
+     "approx": true
+    },
+    {
+     "w": "happened",
+     "s": 14.16,
+     "e": 14.7,
+     "approx": true
+    },
+    {
+     "w": "i-",
+     "s": 14.7,
+     "e": 14.89,
+     "approx": true
+    },
+    {
+     "w": "is",
+     "s": 14.89,
+     "e": 15.07,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 15.07,
+     "e": 15.25,
+     "approx": true
+    },
+    {
+     "w": "obviously",
+     "s": 15.25,
+     "e": 15.86,
+     "approx": true
+    },
+    {
+     "w": "rolled",
+     "s": 15.86,
+     "e": 16.28,
+     "approx": true
+    },
+    {
+     "w": "upside",
+     "s": 16.28,
+     "e": 16.71,
+     "approx": true
+    },
+    {
+     "w": "down.",
+     "s": 16.71,
+     "e": 17.08,
+     "approx": true
+    },
+    {
+     "w": "Um,",
+     "s": 17.54,
+     "e": 17.81,
+     "approx": true
+    },
+    {
+     "w": "there's",
+     "s": 17.81,
+     "e": 18.37,
+     "approx": true
+    },
+    {
+     "w": "this",
+     "s": 18.37,
+     "e": 18.72,
+     "approx": true
+    },
+    {
+     "w": "vent",
+     "s": 18.72,
+     "e": 19.07,
+     "approx": true
+    },
+    {
+     "w": "hose",
+     "s": 19.07,
+     "e": 19.41,
+     "approx": true
+    },
+    {
+     "w": "right",
+     "s": 19.41,
+     "e": 19.83,
+     "approx": true
+    },
+    {
+     "w": "here,",
+     "s": 19.83,
+     "e": 20.25,
+     "approx": true
+    },
+    {
+     "w": "and",
+     "s": 20.25,
+     "e": 20.53,
+     "approx": true
+    },
+    {
+     "w": "when",
+     "s": 20.53,
+     "e": 20.88,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 20.88,
+     "e": 21.08,
+     "approx": true
+    },
+    {
+     "w": "was",
+     "s": 21.08,
+     "e": 21.36,
+     "approx": true
+    },
+    {
+     "w": "upside",
+     "s": 21.36,
+     "e": 21.85,
+     "approx": true
+    },
+    {
+     "w": "down,",
+     "s": 21.85,
+     "e": 22.27,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 22.27,
+     "e": 22.55,
+     "approx": true
+    },
+    {
+     "w": "pressure",
+     "s": 22.55,
+     "e": 23.17,
+     "approx": true
+    },
+    {
+     "w": "caused",
+     "s": 23.53,
+     "e": 24.07,
+     "approx": true
+    },
+    {
+     "w": "a",
+     "s": 24.07,
+     "e": 24.23,
+     "approx": true
+    },
+    {
+     "w": "bunch",
+     "s": 24.23,
+     "e": 24.69,
+     "approx": true
+    },
+    {
+     "w": "of",
+     "s": 24.69,
+     "e": 24.92,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 24.92,
+     "e": 25.3,
+     "approx": true
+    },
+    {
+     "w": "coolant",
+     "s": 25.3,
+     "e": 25.92,
+     "approx": true
+    },
+    {
+     "w": "to",
+     "s": 25.92,
+     "e": 26.15,
+     "approx": true
+    },
+    {
+     "w": "get",
+     "s": 26.15,
+     "e": 26.46,
+     "approx": true
+    },
+    {
+     "w": "pushed",
+     "s": 26.46,
+     "e": 26.99,
+     "approx": true
+    },
+    {
+     "w": "out",
+     "s": 26.99,
+     "e": 27.3,
+     "approx": true
+    },
+    {
+     "w": "of",
+     "s": 27.3,
+     "e": 27.53,
+     "approx": true
+    },
+    {
+     "w": "this",
+     "s": 27.53,
+     "e": 27.92,
+     "approx": true
+    },
+    {
+     "w": "vent",
+     "s": 27.92,
+     "e": 28.3,
+     "approx": true
+    },
+    {
+     "w": "hose,",
+     "s": 28.3,
+     "e": 28.76,
+     "approx": true
+    },
+    {
+     "w": "making",
+     "s": 28.76,
+     "e": 29.3,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 29.3,
+     "e": 29.42,
+     "approx": true
+    },
+    {
+     "w": "just",
+     "s": 29.42,
+     "e": 29.63,
+     "approx": true
+    },
+    {
+     "w": "go",
+     "s": 29.63,
+     "e": 29.75,
+     "approx": true
+    },
+    {
+     "w": "absolutely",
+     "s": 29.75,
+     "e": 30.19,
+     "approx": true
+    },
+    {
+     "w": "everywhere.",
+     "s": 30.19,
+     "e": 30.68,
+     "approx": true
+    },
+    {
+     "w": "And",
+     "s": 30.96,
+     "e": 31.25,
+     "approx": true
+    },
+    {
+     "w": "so,",
+     "s": 31.25,
+     "e": 31.53,
+     "approx": true
+    },
+    {
+     "w": "um,",
+     "s": 31.53,
+     "e": 31.82,
+     "approx": true
+    },
+    {
+     "w": "'cause",
+     "s": 31.82,
+     "e": 32.32,
+     "approx": true
+    },
+    {
+     "w": "if",
+     "s": 32.32,
+     "e": 32.53,
+     "approx": true
+    },
+    {
+     "w": "you",
+     "s": 32.53,
+     "e": 32.82,
+     "approx": true
+    },
+    {
+     "w": "look",
+     "s": 32.82,
+     "e": 33.17,
+     "approx": true
+    },
+    {
+     "w": "on",
+     "s": 33.17,
+     "e": 33.39,
+     "approx": true
+    },
+    {
+     "w": "the",
+     "s": 33.39,
+     "e": 33.67,
+     "approx": true
+    },
+    {
+     "w": "skid",
+     "s": 33.67,
+     "e": 34.03,
+     "approx": true
+    },
+    {
+     "w": "plate,",
+     "s": 34.03,
+     "e": 34.53,
+     "approx": true
+    },
+    {
+     "w": "it's",
+     "s": 34.53,
+     "e": 34.88,
+     "approx": true
+    },
+    {
+     "w": "pretty,",
+     "s": 34.88,
+     "e": 35.45,
+     "approx": true
+    },
+    {
+     "w": "it's",
+     "s": 35.84,
+     "e": 36.37,
+     "approx": true
+    },
+    {
+     "w": "pretty,",
+     "s": 36.37,
+     "e": 37.22,
+     "approx": true
+    },
+    {
+     "w": "uh,",
+     "s": 37.22,
+     "e": 37.65,
+     "approx": true
+    },
+    {
+     "w": "moist",
+     "s": 37.65,
+     "e": 38.29,
+     "approx": true
+    },
+    {
+     "w": "everywhere.",
+     "s": 38.29,
+     "e": 39.56,
+     "approx": true
+    },
+    {
+     "w": "So",
+     "s": 39.61,
+     "e": 39.83,
+     "approx": true
+    },
+    {
+     "w": "coolant",
+     "s": 39.83,
+     "e": 40.42,
+     "approx": true
+    },
+    {
+     "w": "did",
+     "s": 40.42,
+     "e": 40.71,
+     "approx": true
+    },
+    {
+     "w": "get",
+     "s": 40.71,
+     "e": 41.01,
+     "approx": true
+    },
+    {
+     "w": "a",
+     "s": 41.01,
+     "e": 41.15,
+     "approx": true
+    },
+    {
+     "w": "lot",
+     "s": 41.15,
+     "e": 41.45,
+     "approx": true
+    },
+    {
+     "w": "of",
+     "s": 41.45,
+     "e": 41.67,
+     "approx": true
+    },
+    {
+     "w": "places,",
+     "s": 41.67,
+     "e": 42.26,
+     "approx": true
+    },
+    {
+     "w": "um,",
+     "s": 42.26,
+     "e": 42.55,
+     "approx": true
+    },
+    {
+     "w": "but",
+     "s": 42.55,
+     "e": 42.85,
+     "approx": true
+    },
+    {
+     "w": "I",
+     "s": 42.85,
+     "e": 42.99,
+     "approx": true
+    },
+    {
+     "w": "think",
+     "s": 42.99,
+     "e": 43.44,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 43.44,
+     "e": 43.66,
+     "approx": true
+    },
+    {
+     "w": "was",
+     "s": 43.66,
+     "e": 43.95,
+     "approx": true
+    },
+    {
+     "w": "just",
+     "s": 43.95,
+     "e": 44.32,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 44.32,
+     "e": 44.69,
+     "approx": true
+    },
+    {
+     "w": "pressure",
+     "s": 45.08,
+     "e": 45.44,
+     "approx": true
+    },
+    {
+     "w": "upside",
+     "s": 45.44,
+     "e": 45.72,
+     "approx": true
+    },
+    {
+     "w": "down",
+     "s": 45.72,
+     "e": 45.92,
+     "approx": true
+    },
+    {
+     "w": "that",
+     "s": 45.92,
+     "e": 46.13,
+     "approx": true
+    },
+    {
+     "w": "did",
+     "s": 46.13,
+     "e": 46.29,
+     "approx": true
+    },
+    {
+     "w": "it",
+     "s": 46.29,
+     "e": 46.41,
+     "approx": true
+    }
+   ],
+   "text": "Okay, so I filled it with coolant, brought it up to temperature, got it super hot, um, you know, checked the radiator, checked underneath, checked all the hoses, and it actually was not leaking coolant at all. Um, so what I think happened i- is it obviously rolled upside down. Um, there's this vent hose right here, and when it was upside down, the pressure caused a bunch of that coolant to get pushed out of this vent hose, making it just go absolutely everywhere. And so, um, 'cause if you look on the skid plate, it's pretty, it's pretty, uh, moist everywhere. So coolant did get a lot of places, um, but I think it was just that pressure upside down that did it",
+   "id": "c4"
+  }
+ ],
+ "candidates": [
+  {
+   "src": "c1",
+   "start": 0.45,
+   "end": 2.7,
+   "dur": 2.25,
+   "kind": "speech",
+   "text": "Customer states they rolled it.",
+   "score": 1.0,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m1"
+  },
+  {
+   "src": "c1",
+   "start": 3.3,
+   "end": 8.63,
+   "dur": 5.33,
+   "kind": "speech",
+   "text": "they also stated that there was a puddle of coolant after the incident.",
+   "score": 1.0,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "Um,",
+   "id": "m2"
+  },
+  {
+   "src": "c1",
+   "start": 8.53,
+   "end": 9.85,
+   "dur": 1.32,
+   "kind": "speech",
+   "text": "first thing I'm gonna check",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [
+    "retake"
+   ],
+   "dropped_start": "So",
+   "id": "m3"
+  },
+  {
+   "src": "c1",
+   "start": 11.0,
+   "end": 12.15,
+   "dur": 1.15,
+   "kind": "action",
+   "text": "[loud moment, no talking]",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": false,
+   "flags": [],
+   "id": "m4"
+  },
+  {
+   "src": "c1",
+   "start": 14.0,
+   "end": 15.25,
+   "dur": 1.25,
+   "kind": "speech",
+   "text": "Mm-hmm",
+   "score": 1.53,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m5"
+  },
+  {
+   "src": "c1",
+   "start": 28.45,
+   "end": 29.8,
+   "dur": 1.35,
+   "kind": "speech",
+   "text": "I'm gonna check",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m6"
+  },
+  {
+   "src": "c1",
+   "start": 36.65,
+   "end": 38.6,
+   "dur": 1.95,
+   "kind": "speech",
+   "text": "You're back",
+   "score": 1.6,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m7"
+  },
+  {
+   "src": "c2",
+   "start": 0.05,
+   "end": 17.45,
+   "dur": 17.4,
+   "kind": "speech",
+   "text": "I just checked the oil and she's got oil, but when things are sitting upside down, they tend to accumulate a little bit of lubrication in somewhere that doesn't need lubrication, namely the air box",
+   "score": 1.92,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m8"
+  },
+  {
+   "src": "c2",
+   "start": 3.5,
+   "end": 6.65,
+   "dur": 3.15,
+   "kind": "clause",
+   "text": "when things are sitting upside down",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m9"
+  },
+  {
+   "src": "c2",
+   "start": 21.25,
+   "end": 22.95,
+   "dur": 1.7,
+   "kind": "speech",
+   "text": "It's got some oil in her",
+   "score": 1.0,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m10"
+  },
+  {
+   "src": "c3",
+   "start": 0.0,
+   "end": 3.45,
+   "dur": 3.45,
+   "kind": "speech",
+   "text": "I'm thinking that something has happened to the radiator.",
+   "score": 1.0,
+   "problem": 0,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m11"
+  },
+  {
+   "src": "c3",
+   "start": 3.8,
+   "end": 15.7,
+   "dur": 11.9,
+   "kind": "speech",
+   "text": "Now, I am going to test my theory by filling the system with coolant and running it, because it's got oil.",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m12"
+  },
+  {
+   "src": "c3",
+   "start": 4.77,
+   "end": 13.17,
+   "dur": 8.4,
+   "kind": "clause",
+   "text": "I am going to test my theory by filling the system with coolant and running it",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m13"
+  },
+  {
+   "src": "c3",
+   "start": 16.65,
+   "end": 19.3,
+   "dur": 2.65,
+   "kind": "speech",
+   "text": "I just need to see where it's leaking",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "",
+   "id": "m14"
+  },
+  {
+   "src": "c4",
+   "start": 0.1,
+   "end": 12.4,
+   "dur": 12.3,
+   "kind": "speech",
+   "text": "I filled it with coolant, brought it up to temperature, got it super hot, um, you know, checked the radiator, checked underneath, checked all the hoses, and it actually was not leaking coolant at all.",
+   "score": 3.94,
+   "problem": 1,
+   "reveal": 1,
+   "fillers": 1,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "Okay, so",
+   "id": "m15"
+  },
+  {
+   "src": "c4",
+   "start": 8.87,
+   "end": 12.4,
+   "dur": 3.53,
+   "kind": "clause",
+   "text": "it actually was not leaking coolant at all.",
+   "score": 4.5,
+   "problem": 1,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m16"
+  },
+  {
+   "src": "c4",
+   "start": 12.95,
+   "end": 17.15,
+   "dur": 4.2,
+   "kind": "speech",
+   "text": "what I think happened i- is it obviously rolled upside down.",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "Um, so",
+   "id": "m17"
+  },
+  {
+   "src": "c4",
+   "start": 17.4,
+   "end": 30.9,
+   "dur": 13.5,
+   "kind": "speech",
+   "text": "there's this vent hose right here, and when it was upside down, the pressure caused a bunch of that coolant to get pushed out of this vent hose, making it just go absolutely everywhere.",
+   "score": 4.7,
+   "problem": 2,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "Um,",
+   "id": "m18"
+  },
+  {
+   "src": "c4",
+   "start": 20.35,
+   "end": 22.27,
+   "dur": 1.92,
+   "kind": "clause",
+   "text": "when it was upside down",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m19"
+  },
+  {
+   "src": "c4",
+   "start": 28.76,
+   "end": 30.9,
+   "dur": 2.14,
+   "kind": "clause",
+   "text": "making it just go absolutely everywhere.",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m20"
+  },
+  {
+   "src": "c4",
+   "start": 31.95,
+   "end": 39.83,
+   "dur": 7.88,
+   "kind": "speech",
+   "text": "if you look on the skid plate, it's pretty, it's pretty, uh, moist everywhere.",
+   "score": 4.0,
+   "problem": 1,
+   "reveal": 1,
+   "fillers": 1,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "And so, um, 'cause",
+   "id": "m21"
+  },
+  {
+   "src": "c4",
+   "start": 31.95,
+   "end": 34.53,
+   "dur": 2.58,
+   "kind": "clause",
+   "text": "if you look on the skid plate",
+   "score": 2.5,
+   "problem": 0,
+   "reveal": 1,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m22"
+  },
+  {
+   "src": "c4",
+   "start": 39.56,
+   "end": 46.5,
+   "dur": 6.94,
+   "kind": "speech",
+   "text": "coolant did get a lot of places, um, but I think it was just that pressure upside down that did it",
+   "score": 2.5,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 1,
+   "approx": true,
+   "flags": [],
+   "dropped_start": "So",
+   "id": "m23"
+  },
+  {
+   "src": "c4",
+   "start": 42.65,
+   "end": 46.5,
+   "dur": 3.85,
+   "kind": "clause",
+   "text": "I think it was just that pressure upside down that did it",
+   "score": 3.0,
+   "problem": 1,
+   "reveal": 0,
+   "fillers": 0,
+   "approx": true,
+   "flags": [],
+   "id": "m24"
+  }
+ ],
+ "cuts": {
+  "ig_reel": {
+   "target": "ig_reel",
+   "label": "Instagram + Facebook reel",
+   "aspect": "9:16",
+   "skipped": false,
+   "duration": 34.2,
+   "hook": null,
+   "segments": [
+    {
+     "src": "c1",
+     "start": 0.55,
+     "end": 2.4,
+     "text": "Customer states they rolled it.",
+     "why": "hook: the problem, 'Customer states' format",
+     "blur": [
+      {
+       "t0": 0.0,
+       "t1": 3.0,
+       "x": 0.08,
+       "y": 0.26,
+       "w": 0.36,
+       "h": 0.18,
+       "why": "handwritten tag on machine (seat area)"
+      }
+     ]
+    },
+    {
+     "src": "c1",
+     "start": 3.55,
+     "end": 8.45,
+     "text": "they also stated that there was a puddle of coolant after the incident.",
+     "why": "editor pick",
+     "blur": [
+      {
+       "t0": 3.4,
+       "t1": 4.9,
+       "x": 0.0,
+       "y": 0.08,
+       "w": 0.42,
+       "h": 0.26,
+       "why": "handwritten tag on machine"
+      },
+      {
+       "t0": 4.8,
+       "t1": 6.3,
+       "x": 0.18,
+       "y": 0.13,
+       "w": 0.68,
+       "h": 0.4,
+       "why": "handwritten tag on machine"
+      }
+     ]
+    },
+    {
+     "src": "c3",
+     "start": 0.0,
+     "end": 3.4,
+     "text": "I'm thinking that something has happened to the radiator.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 5.0,
+     "end": 12.45,
+     "text": "checked the radiator, checked underneath, checked all the hoses, and it actually was not leaking coolant at all.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 17.9,
+     "end": 30.7,
+     "text": "there's this vent hose right here, and when it was upside down, the pressure caused a bunch of that coolant to get pushed out of this vent hose, making it just go absolutely everywhere.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 42.8,
+     "end": 46.6,
+     "text": "but I think it was just that pressure upside down that did it",
+     "why": "ending: the answer"
+    }
+   ],
+   "notes": [
+    "Customer states format (last one got 2,653 plays as a trial reel)."
+   ],
+   "edited_by": "cutter agent",
+   "render": {
+    "rough": "jobs/2026-10-05-rolled-x3/out/ig_reel-rough.mp4",
+    "fill": "blur",
+    "at": "2026-10-05T23:02:27Z"
+   }
+  },
+  "ig_quick": {
+   "target": "ig_quick",
+   "label": "Quick reel (15 s or less)",
+   "aspect": "9:16",
+   "skipped": false,
+   "duration": 13.0,
+   "hook": null,
+   "segments": [
+    {
+     "src": "c1",
+     "start": 0.55,
+     "end": 2.4,
+     "text": "Customer states they rolled it.",
+     "why": "hook: the problem, 'Customer states' format",
+     "blur": [
+      {
+       "t0": 0.0,
+       "t1": 3.0,
+       "x": 0.08,
+       "y": 0.26,
+       "w": 0.36,
+       "h": 0.18,
+       "why": "handwritten tag on machine (seat area)"
+      }
+     ]
+    },
+    {
+     "src": "c4",
+     "start": 9.05,
+     "end": 12.45,
+     "text": "it actually was not leaking coolant at all.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 26.75,
+     "end": 30.7,
+     "text": "pushed out of this vent hose, making it just go absolutely everywhere.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 42.8,
+     "end": 46.6,
+     "text": "but I think it was just that pressure upside down that did it",
+     "why": "ending: the answer"
+    }
+   ],
+   "notes": [],
+   "edited_by": "cutter agent",
+   "render": {
+    "rough": "jobs/2026-10-05-rolled-x3/out/ig_quick-rough.mp4",
+    "fill": "blur",
+    "at": "2026-10-05T23:38:38Z"
+   }
+  },
+  "yt_short": {
+   "target": "yt_short",
+   "label": "YouTube Short",
+   "aspect": "9:16",
+   "skipped": false,
+   "duration": 49.3,
+   "hook": null,
+   "segments": [
+    {
+     "src": "c1",
+     "start": 0.55,
+     "end": 2.4,
+     "text": "Customer states they rolled it.",
+     "why": "hook: the problem, 'Customer states' format",
+     "blur": [
+      {
+       "t0": 0.0,
+       "t1": 3.0,
+       "x": 0.08,
+       "y": 0.26,
+       "w": 0.36,
+       "h": 0.18,
+       "why": "handwritten tag on machine (seat area)"
+      }
+     ]
+    },
+    {
+     "src": "c1",
+     "start": 3.55,
+     "end": 8.45,
+     "text": "they also stated that there was a puddle of coolant after the incident.",
+     "why": "editor pick",
+     "blur": [
+      {
+       "t0": 3.4,
+       "t1": 4.9,
+       "x": 0.0,
+       "y": 0.08,
+       "w": 0.42,
+       "h": 0.26,
+       "why": "handwritten tag on machine"
+      },
+      {
+       "t0": 4.8,
+       "t1": 6.3,
+       "x": 0.18,
+       "y": 0.13,
+       "w": 0.68,
+       "h": 0.4,
+       "why": "handwritten tag on machine"
+      }
+     ]
+    },
+    {
+     "src": "c1",
+     "start": 19.0,
+     "end": 22.0,
+     "text": "",
+     "why": "b-roll: coolant reservoir"
+    },
+    {
+     "src": "c3",
+     "start": 0.0,
+     "end": 3.4,
+     "text": "I'm thinking that something has happened to the radiator.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c3",
+     "start": 4.77,
+     "end": 13.17,
+     "text": "I am going to test my theory by filling the system with coolant and running it",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 5.0,
+     "end": 12.45,
+     "text": "checked the radiator, checked underneath, checked all the hoses, and it actually was not leaking coolant at all.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 17.9,
+     "end": 30.7,
+     "text": "there's this vent hose right here, and when it was upside down, the pressure caused a bunch of that coolant to get pushed out of this vent hose, making it just go absolutely everywhere.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 32.0,
+     "end": 34.3,
+     "text": "if you look on the skid plate",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 37.55,
+     "end": 38.95,
+     "text": "moist everywhere.",
+     "why": "editor pick"
+    },
+    {
+     "src": "c4",
+     "start": 42.8,
+     "end": 46.6,
+     "text": "but I think it was just that pressure upside down that did it",
+     "why": "ending: the answer"
+    }
+   ],
+   "notes": [],
+   "edited_by": "cutter agent",
+   "render": {
+    "rough": "jobs/2026-10-05-rolled-x3/out/yt_short-rough.mp4",
+    "fill": "blur",
+    "at": "2026-10-05T23:40:25Z"
+   }
+  },
+  "yt_long": {
+   "target": "yt_long",
+   "label": "YouTube video",
+   "skipped": true,
+   "notes": [
+    "Only 95 s of usable footage; needs 360 s.",
+    "Not enough footage for a long video; film a full walkaround next time."
+   ]
+  }
+ },
+ "visuals": {
+  "ig_reel": {
+   "hook_text": "Rolled it.\\NCoolant everywhere.",
+   "file": "jobs/2026-10-05-rolled-x3/out/ig_reel-visuals.mp4",
+   "style": "Shop Floor",
+   "callouts": [
+    "VENT HOSE",
+    "RADIATOR"
+   ],
+   "at": "2026-10-05T23:37:31Z",
+   "end_card": "MOBILE POWERSPORTS REPAIR"
+  }
+ },
+ "audio": {
+  "ig_reel": {
+   "file": "jobs/2026-10-05-rolled-x3/out/ig_reel-audio.mp4",
+   "from": "jobs/2026-10-05-rolled-x3/out/ig_reel-visuals.mp4",
+   "music": "pipeline/music/garage-rock-01.m4a",
+   "lufs": -14.1,
+   "true_peak": -1.5,
+   "at": "2026-10-05T23:37:45Z"
+  }
+ },
+ "package": {
+  "ig_reel": {
+   "cover_text": "Rolled it.\\NCoolant everywhere.",
+   "copy": {
+    "instagram": {
+     "caption": "Customer states they rolled it\u2026 coolant everywhere but nothing\u2019s leaking\n\nGuess where it came from before the end",
+     "hashtags": [
+      "#canam",
+      "#utvrepair",
+      "#mobilemechanic"
+     ]
+    },
+    "facebook": {
+     "caption": "Customer states they rolled it\u2026 coolant everywhere but nothing\u2019s leaking\n\nGuess where it came from before the end",
+     "hashtags": []
+    }
+   },
+   "cover": "jobs/2026-10-05-rolled-x3/out/ig_reel-cover.jpg",
+   "cover_at": 0.35,
+   "card": "jobs/2026-10-05-rolled-x3/out/ig_reel-approval.md",
+   "at": "2026-10-05T23:37:46Z"
+  }
+ },
+ "approval": {
+  "approved": false,
+  "by": "Wells",
+  "at": "2026-10-05T23:40:42Z",
+  "items": [
+   {
+    "platform": "instagram",
+    "account": "Instagram @wellspowersports (reel)",
+    "target": "ig_reel",
+    "video": "jobs/2026-10-05-rolled-x3/out/ig_reel-audio.mp4",
+    "video_stage": "audio",
+    "sha256": "351a7f90840d13727b51ba5952172bebe9e273851b156953c3b828a9d7260d44",
+    "cover": "jobs/2026-10-05-rolled-x3/out/ig_reel-cover.jpg",
+    "title": "",
+    "caption": "Customer states they rolled it\u2026 coolant everywhere but nothing\u2019s leaking\n\nGuess where it came from before the end",
+    "hashtags": [
+     "#canam",
+     "#utvrepair",
+     "#mobilemechanic"
+    ],
+    "issues": [],
+    "approved": true,
+    "trial": {
+     "graduationStrategy": "MANUAL"
+    },
+    "posted": false,
+    "note": "Approved by Wells 2026-10-05 23:40Z as a trial reel (manual). Auto-post blocked by session permissions; file handed to Wells."
+   },
+   {
+    "platform": "facebook",
+    "account": "Facebook, Wells Powersports page (reel)",
+    "target": "ig_reel",
+    "video": "jobs/2026-10-05-rolled-x3/out/ig_reel-audio.mp4",
+    "video_stage": "audio",
+    "sha256": "351a7f90840d13727b51ba5952172bebe9e273851b156953c3b828a9d7260d44",
+    "cover": "jobs/2026-10-05-rolled-x3/out/ig_reel-cover.jpg",
+    "title": "",
+    "caption": "Customer states they rolled it\u2026 coolant everywhere but nothing\u2019s leaking\n\nGuess where it came from before the end",
+    "hashtags": [],
+    "issues": [],
+    "approved": false
+   }
+  ]
+ },
+ "privacy": [
+  "IMG_7471 0-6.3 s: handwritten tag on the machine (seat area, then close up), blurred in every cut that uses it."
+ ]
+}
