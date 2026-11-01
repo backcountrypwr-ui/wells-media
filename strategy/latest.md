@@ -1,77 +1,75 @@
-# Weekly strategy, week of Oct 26, 2026
+# Weekly strategy, week of Nov 2, 2026
 
-Written Oct 25 from the Oct 25 snapshot (43 reels, last 90 days) and a scan of top-performing reels posted Oct 18–25. YouTube has no videos yet, so everything below is Instagram data.
+Written Nov 1 from the Nov 1 snapshot (50 reels, last 90 days) and a scan of top-performing reels posted Oct 25–Nov 1. YouTube has no videos yet, so everything below is Instagram data.
 
 ## Editing rules this week
-1. **Open on the problem, with text on screen from the first frame.** Reels where under 22% swiped away at the start: median 4,195 plays (7 reels). Over 40%: 536 (10). All 4 new reels stayed under 30%.
-2. **Show the failure itself in the first second.** The pull-start reel opens on the struggle: 19.1% swipe-away, 72.1% watched, 35,776 plays.
-3. **Let the story set the length, cap at 60 sec.** 41–60 sec: median 2,831 (7 reels). 15 sec or less: 1,764. 16–40: 1,674. Over 60: 1,056. The hit this week was 24 sec, so never pad.
-4. **Raw sound when the machine is the story.** Engine, pull cord, tools. No music over a start.
-5. **End the caption with a one-word-answer question.** The 4 new reels got 11 comments, after 3 from 7 reels the week before.
+1. **Open on the worst frame, with text on screen from the first second.** Reels where under 22% swiped away at the start: median 4,229 plays (7 reels). Over 40%: 591 (14). 4 of this week's 7 new reels lost over 40% at the start.
+2. **One version of each clip.** The second copy of the belt reel, posted 3 minutes after the first, got 195 plays. Three transfer-case cuts posted within 2 hours all landed at 1,688–1,831.
+3. **Number the series and end Part 1 unsolved.** Put "PART 1" / "PART 2" in a big text card on the cover.
+4. **Stories 40–60 sec, loops under 15.** 41–60 sec: median 2,260 (8 reels). 15 sec or less: 1,758. 16–40: 1,734. Over 60: 1,061.
+5. **End on an open question.** The 7 new reels got 2 comments between them.
 
 ## What's working (ours)
-- **Snowmobile pull-start** ("Such a struggle when it doesn't have electric start", Oct 23, 24 sec): 35,776 plays, 473 likes, 19.1% swipe-away. Second-biggest reel.
-- **"Customer states: clutch is slipping"**: 189,416 plays (+37,703 this week, its biggest week), 454 saves, 62 comments. 56.7% of all plays.
-- **"What do you think happened here?"** (Oct 20, 11 sec): 2,496, above the 1,673 median.
-- **Weak**: build-progress montages (median 557), anything over 60 sec, and trial copies (1,259 and 1,455 so far).
+- **"Customer states: clutch is slipping"**: 208,569 plays (+19,153 this week), 495 saves. 56.0% of all plays.
+- **Snowmobile pull-start**: 44,074 plays (+8,298), 573 likes. No follow-up yet.
+- **Discovery 2 transfer case rebuild** (Oct 28, 40 sec): 1,831, the best of this week's new reels, with 31.8% swipe-away.
+- **Weak**: the duplicate belt reel (195 plays, 66.7% swipe-away), build-progress montages (median 560), and anything over 60 sec.
 
 ## Borrow from the niche
-Outlier reels posted Oct 18–25 (views, and how many times above that creator's usual).
+Outlier reels posted Oct 25–Nov 1 (views, and how many times above that creator's usual).
 
 | Format | Example to study | Why it works | How we use it |
 |---|---|---|---|
-| **Failure in the field, then the fix** | @out1_door1_life1, 755K (33×): sled pull cord snaps, "OH WHAT", then the repair in close-ups | The failure is the hook; the fix holds | Sled out of storage that won't start, then the fix |
-| **Numbered rebuild series** | @tyler_mcnabb_137, 3.9M (19×): "TRX450R Rebuild Part 9", opens on a hone already running | No intro, loud tool from frame one, series brings viewers back | "LS Discovery 2, Part 1", opened on the loudest step |
-| **Quiet POV of one routine service** | @dangerboydeegan, 1.1M (7×): dirt bike oil change, kneeling POV, shop sound only | Satisfying and saveable | Winterizing POV, no customers in frame |
-| **A question people ask, answered** | @thetoyotarob (TikTok), 1.5M (964×): DM question on screen, answer over diagnosis b-roll, 52 sec | Relatable, shows judgment | "Is it worth fixing before winter?" over a real diagnosis |
-| **Close-up with a one-line reaction** | @oldmanmotors, 299K: 11-sec close-up, "I think that sums it up" (192 comments) | Frustrating part plus a short reaction draws comments | 10–15 sec worst-part close-ups between longer stories |
+| **"Customer states" over the nastiest frame** | @fsp_transmissions, 3.8M (8×): card over a wrecked transmission pouring fluid | Your best format, opened on the grossest frame | Complaint card over old fuel draining or a gummed carb |
+| **Will-it-start struggle, no payoff** | @the_barn_brothers, 769K (6.5×): "Attempting to start this 1931 generator…" | The struggle is the content; unsolved ending pulls people to Part 2 | Sled that's sat all year, each try explained, fix in Part 2 |
+| **Mobile mechanic POV arrival** | @flyingwrench0 (TikTok), 1.2M (5.9×): POV walk-up, driveway carb fix | Exactly your business | POV from the truck to the machine; customer off camera |
+| **Deadpan "It's okay" walkaround** | @onlydirtfans (TikTok), 616K (3.7×): "It's okay" at each broken part, 19 sec | Loops, people tag friends | Your own beat-up machine or the Disco |
+| **Multi-part series, big cover card** | @mxrevival, 212K: "STOCK VS ROCKET PART 1"; "Dirt Bike Problems" Part 2 beat Part 1 | Numbered parts bring viewers back | Number the sled and Disco reels |
 
-Accounts worth watching: @oldmanmotors (short close-ups with a joke caption beat their 50+ sec teardowns by a wide margin), @macsmobilemechanic, @the_barn_brothers, @mxrevival, @theroyaltyautoservice.
+Accounts worth watching: @mxrevival, @oldmanmotors, @macsmobilemechanic, @the_barn_brothers, @theroyaltyautoservice.
 
 ## This week's videos
-Footage on hand: nothing new in Drive. The 5 raw clips in `1 - Raw footage` (IMG_7470 to 7475, Oct 5) are still there. Everything below needs filming except the YouTube Short.
+Footage on hand: no new footage in Drive. The transfer-case footage behind the Oct 28 reels can be cut long for YouTube. The 5 raw clips in `1 - Raw footage` (IMG_7470 to 7475, Oct 5) are still there.
 
-### Mon Oct 26: IG reel, Pre-season sled check
-- First second: the failure on camera (cord snaps, cranks with no start). Text: "Pulled it out of storage and…"
-- Length: 40–60 sec. Structure: failure (0–3s) → what you check (3–25s) → what you found (25–45s) → it fires (45–55s).
-- Audio: raw sound throughout. End on the engine running.
-- Caption: "Pulled it out of storage and… 😩 What's the first thing you check? #snowmobile #sled #powersports #mechanic #winterprep"
+### Mon Nov 2: IG reel, Attempting to start a sled that's sat all year (Part 1)
+- First second: the first failed pull. Text: "Attempting to start a sled that's sat since last winter"
+- Length: 40–60 sec. Structure: failed pull (0–3s) → spark check (3–15s) → fuel check (15–30s) → still nothing (30–50s) → "What would you check next?"
+- Audio: raw sound, your voice explaining each check. Cover card: "WILL IT START? PART 1"
+- Caption: "Sat since last winter. What would you check next? 👇 Part 2 Friday #snowmobile #sled #powersports #mechanic #winterprep"
 
-### Tue Oct 27: YouTube Short, the pull-start reel
-- Upload the Oct 23 reel as posted (24 sec, 1080x1920).
-- Title: "Such a struggle without electric start #shorts #snowmobile"
-- Why: YouTube still has 0 videos, and this reel kept 80.9% of viewers past the first second.
+### Tue Nov 3: YouTube Short, the pull-start reel
+- Upload the Oct 23 reel as posted (24 sec). Title: "Such a struggle without electric start #shorts #snowmobile"
 
-### Wed Oct 28: IG reel, "Customer states…" #3
-- First second: text card with the complaint, then the part in hand.
-- Length: 40–60 sec. Complaint (0–3s) → symptom (3–10s) → what was found (10–40s) → fix and test (40–55s).
-- Caption: "Customer states: ___ 🤔 What would you check first? #powersports #mechanic #utv #atv #diagnosis"
+### Wed Nov 4: IG reel, "Customer states…": worst one this season
+- First second: complaint card over the nastiest frame (old fuel draining, gummed carb, chewed belt).
+- Length: 40–60 sec. Complaint (0–3s) → the mess (3–15s) → what was found (15–40s) → fix and test (40–55s).
+- Caption: "Customer states: ___ 🤢 Worst one this season. What would you have checked first? #powersports #mechanic #atv #utv #diagnosis"
 
-### Thu Oct 29: IG trial reel, A question people ask you
-- First second: the question on screen, "Is it worth fixing before winter?"
-- Length: 45–55 sec. You answer to camera or in voiceover over b-roll of a real diagnosis.
-- Caption: "Fix it now or wait till spring? 👇 #powersports #mechanic #atv #utv"
-- Success test: at least 3 comments and under 30% swipe-away at 48 hours.
+### Thu Nov 5: IG trial reel, "It's okay" walkaround
+- First second: you next to your own beat-up machine or the Disco. Deadpan: "It's okay."
+- Length: 15–20 sec, loop. "It's okay" at each broken part.
+- Caption: "It's okay. It's fine. 🙂 Tag the friend who says this #mechaniclife #powersports #shoplife"
+- Your own vehicle only. Success test: at least 3 comments and under 30% swipe-away at 48 hours.
 
-### Fri Oct 30: IG reel, "Before you park it" winterizing POV
-- First second: POV kneeling at the machine, stabilizer going in. Text: "Do this before you park it"
-- Length: 30–45 sec. Stabilizer → run it through → fogging oil → battery tender. Shop sound only, one caption line per step.
-- Caption: "Do this before you park it for winter ❄️ Save this #winterizing #powersports #atv #snowmobile #maintenance"
+### Fri Nov 6: IG reel, Sled Part 2: what was wrong
+- First second: the part that caused it, in your hand. Text: "Part 2: here's why it wouldn't start"
+- Length: 30–45 sec, ending on it running. Cover card: "WILL IT START? PART 2"
+- Caption: "Part 2: found it 👀 Did you guess right? #snowmobile #sled #powersports #mechanic"
 
-### Sat Oct 31: YouTube, LS swap walkaround (optional)
-- 8–12 min. Skip it if the week is full.
+### Sat Nov 7: YouTube, Discovery 2 transfer case rebuild (long)
+- 8–12 min from the existing transfer-case footage. Open on the broken gear teeth.
 
 ## What people are saying
-Comment text still isn't connected (counts only). Median 1 comment per reel, 18 of 43 have none, and the 4 new reels got 11.
+Comment text still isn't connected (counts only). Median 1 comment per reel, 24 of 50 have none, and the 7 new reels got 2.
 
 ## Don'ts
 - No plates, VINs, customer names or faces on customer machines unless the owner OKs it. Parts on the bench are fine.
 - Never name the owner's employer or any customer.
-- The winterizing POV shows no customer handing over keys.
+- The "It's okay" reel uses only the owner's own machine or the Disco. The POV arrival keeps the customer off camera.
 - Nothing posts without the owner approving the exact video, caption and account.
 
 ## Data gaps this week
-- Instagram comment text: the Supermetrics trial ended, so it needs a paid plan.
+- Instagram comment text: Supermetrics needs a paid plan.
 - Facebook: not connected (Metricool or a paid Supermetrics plan).
 - YouTube: 0 videos.
 - No new footage in Drive.
